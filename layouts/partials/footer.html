@@ -1,0 +1,45 @@
+<footer class="black page-footer">
+    <div class="container">
+        <div class="footer-copyright">
+            <div class="container">
+                Our <a href="#"> Disclaimer Generator </a> can create a disclaimer or disclosure for your website.
+            </div>
+        </div>
+    </div>
+</footer>
+
+<ul id="slide-out" class="sidenav">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Blog</a></li>
+    <li><a href="#">Login</a></li>
+    <li class="snipcart-summary">
+        <a href="#" class="snipcart-checkout">
+            View cart (<span class="snipcart-total-items">0</span>)
+        </a>
+    </li>
+</ul>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+<script type="text/javascript" id="snipcart" src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5"></script>
+
+<script>
+    Snipcart.execute('registerLocale', 'en', {
+            powered_by:
+            "HoS 'ej pong ngaQ "
+        }); 
+</script>
+
+<script>
+    var elem = document.querySelector('.sidenav');
+    var instance = new M.Sidenav(elem);
+    $(document).ready(function(){
+            $('.sidenav').sidenav();
+        });
+
+</script>
+</body>
+</html>
