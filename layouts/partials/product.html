@@ -2,8 +2,14 @@
     <!-- <h2 class="header">{{ .name }}</h2> -->
     <div class="card">
         <div class="card-image">
-            <img src="{{ .image }}">
+            <div class="carousel">
+                <a class="carousel-item" href="#one!"><img src="{{ .image }}"></a>
+                <a class="carousel-item" href="#two!"><img src="{{ .image_alt1 }}"></a>
+                <a class="carousel-item" href="#three!"><img src="{{ .image_alt2 }}"></a>
+            </div>
+            <!-- <img src="{{ .image }}"> -->
         </div>
+
         <div class="card-stacked">
             <div class=" card-content">
                 <span class="card-title"> {{ .name }} </span>

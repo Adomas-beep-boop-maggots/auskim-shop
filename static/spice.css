@@ -1,0 +1,3 @@
+.carousel-item.active > img {
+    cursor: zoom-in 
+  }
