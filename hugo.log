@@ -1,7 +1,7 @@
 Start building sites … 
 hugo v0.93.3+extended linux/amd64 BuildDate=unknown
-WARN 2022/07/28 21:37:56 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
-WARN 2022/07/28 21:37:56 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2022/07/28 22:34:10 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN 2022/07/28 22:34:10 found no layout file for "HTML" for kind "taxonomy": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
 
                    | EN  
 -------------------+-----
@@ -14,11 +14,11 @@ WARN 2022/07/28 21:37:56 found no layout file for "HTML" for kind "taxonomy": Yo
   Sitemaps         |  1  
   Cleaned          |  0  
 
-Built in 455 ms
+Built in 622 ms
 Watching for changes in /home/ade/Development/hugo/snapcart/{archetypes,content,data,layouts,static}
 Watching for config changes in /home/ade/Development/hugo/snapcart/config.toml
 Environment: "development"
 Serving pages from memory
 Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
-Web Server is available at http://192.168.0.21:1313/ (bind address 0.0.0.0)
+Web Server is available at http://E15:1313/ (bind address 0.0.0.0)
 Press Ctrl+C to stop

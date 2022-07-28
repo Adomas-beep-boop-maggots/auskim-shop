@@ -1,6 +1,7 @@
 #!/bin/bash
 
-IP=$(ifconfig | sed -En 's/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p')
+# IP=$(ifconfig | sed -En 's/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p')
+IP=$(hostname)
 url=http://$IP:1313
 
 echo $url
@@ -13,6 +14,3 @@ do
         xdg-open $url
     fi
 done
-
-trap "killall hugo" SIGINT
-sleep 10
