@@ -14,5 +14,5 @@ do
     fi
 done
 
-trap "echo hello world" SIGINT
+trap "killall hugo" SIGINT
 sleep 10
