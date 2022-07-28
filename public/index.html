@@ -2,43 +2,54 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
     <head>
 	<meta name="generator" content="Hugo 0.93.3" />
-        <meta http-equiv="content-type" content="text/html; charset=utf-8">  
+
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
         <title> Auskim </title>
 
         <link id="snipcart-theme" type="text/css" href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+        <link href="spice.css" type="text/css" rel="stylesheet">
     </head>
 
     <body>
 
-        <nav class="nav-wrapper">
+        <nav class="black nav-wrapper">
             <div class="container">
-                <a href="#" class="brand-logo"> Auskim </a>
+                <a href="#" class="center brand-logo"> Auskim </a>
                 
                 
                 
                 <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
-                <ul class="right hide-on-med-and-down">
+
+                <div class="hide-on-large-only right snipcart-summary">
+                    <a href="#" class="sidenav-trigger snipcart-checkout">
+                        <i class="sidenav-trigger material-icons">add_shopping_cart</i>(<span class="snipcart-total-items">0</span>)
+                    </a>
+                </div>
+
+                <ul class="left hide-on-med-and-down">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Login</a></li>
-                    <li class="snipcart-summary">
-                        <a href="#" class="snipcart-checkout">
-                            View cart (<span class="snipcart-total-items">0</span>)
-                        </a>
-                    </li>
                 </ul>
+
+                <div style="padding: 0px 15px;" class=" right hide-on-med-and-down snipcart-summary">
+                    <a href="#" class="snipcart-checkout">
+                        <div class="sidenav-trigger">View cart</div> (<span class="snipcart-total-items">0</span>)
+                    </a>
+                </div>
             </div>
         </nav>
 
-
-
-
+        <ul id="slide-out" class="sidenav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
 
 
 
@@ -46,69 +57,243 @@
 <section class="container">
     <div class="row">
         
-            <div class="col s6">
-    <h2 class="header">Klingon dictionary</h2>
-    <div class="card horizontal">
+            <div class="col s12">
+    
+    <div class="card">
         <div class="card-image">
-        <img src="/images/item2.jpg">
+            <div class="carousel">
+                <a class="carousel-item" href="#one!"><img src="/images/item1.png"></a>
+                <a class="carousel-item" href="#two!"><img src="/images/item1-alt1.png"></a>
+                <a class="carousel-item" href="#three!"><img src="/images/item1-alt2.png"></a>
+            </div>
+            
         </div>
+
         <div class="card-stacked">
-        <div class="card-content">
-            <p>Occaecat voluptate andouille anim pork belly eu flank, cow shank drumstick short ribs.  Est porchetta ut brisket.</p>
-        </div>
-        <div class="card-action">
-            <button
-                class="snipcart-add-item waves-effect waves-light btn"
-                data-item-id="1"
-                data-item-name="Klingon dictionary"
-                data-item-price="34.87"
-                data-item-url="http://snipcart-hugo.netlify.com"
-                data-item-custom1-options=""
-                data-item-custom1-name=""
-                data-item-max-quantity="3"
-                data-item-image="/images/item2.jpg">
+            <div class=" card-content">
+                <span class="card-title"> Klingon dictionary </span>
+                <p >Occaecat voluptate andouille anim pork belly eu flank, cow shank drumstick short ribs.  Est porchetta ut brisket.</p>
+            </div>
+            
+            
+            <div class="card-action">
+                <button
+                    class="snipcart-add-item waves-effect waves-light btn"
+                    data-item-id="1"
+                    data-item-name="Klingon dictionary"
+                    data-item-price="34.87"
+                    data-item-url="http://snipcart-hugo.netlify.com"
+                    data-item-custom1-options=""
+                    data-item-custom1-name=""
+                    data-item-max-quantity="3"
+                    data-item-image="/images/item1.png">
                     <i class="material-icons right">shopping_cart</i>
                     Add to card
-            </button>
-        </div>
+                </button>
+            </div>
+            </div>
         </div>
     </div>
-</div>
 
         
-            <div class="col s6">
-    <h2 class="header">Captain Kirk Phaser</h2>
-    <div class="card horizontal">
+            <div class="col s12">
+    
+    <div class="card">
         <div class="card-image">
-        <img src="/images/item1.jpg">
+            <div class="carousel">
+                <a class="carousel-item" href="#one!"><img src="/images/item2.png"></a>
+                <a class="carousel-item" href="#two!"><img src="/images/item2-alt1.png"></a>
+                <a class="carousel-item" href="#three!"><img src="/images/item2-alt2.png"></a>
+            </div>
+            
         </div>
+
         <div class="card-stacked">
-        <div class="card-content">
-            <p>Excepteur landjaeger ex, rump meatball sirloin est kevin culpa drumstick esse corned beef.</p>
-        </div>
-        <div class="card-action">
-            <button
-                class="snipcart-add-item waves-effect waves-light btn"
-                data-item-id="2"
-                data-item-name="Captain Kirk Phaser"
-                data-item-price="145.98"
-                data-item-url="http://snipcart-hugo.netlify.com"
-                data-item-custom1-options="Wooden|Black|Gold &#43;50.00[&#43;50.00]"
-                data-item-custom1-name="What color?"
-                data-item-max-quantity="3"
-                data-item-image="/images/item1.jpg">
+            <div class=" card-content">
+                <span class="card-title"> Captain Kirk Phaser </span>
+                <p >Excepteur landjaeger ex, rump meatball sirloin est kevin culpa drumstick esse corned beef.</p>
+            </div>
+            
+            
+            <div class="card-action">
+                <button
+                    class="snipcart-add-item waves-effect waves-light btn"
+                    data-item-id="2"
+                    data-item-name="Captain Kirk Phaser"
+                    data-item-price="145.98"
+                    data-item-url="http://snipcart-hugo.netlify.com"
+                    data-item-custom1-options="Wooden|Black|Gold &#43;50.00[&#43;50.00]"
+                    data-item-custom1-name="What color?"
+                    data-item-max-quantity="3"
+                    data-item-image="/images/item2.png">
                     <i class="material-icons right">shopping_cart</i>
                     Add to card
-            </button>
-        </div>
+                </button>
+            </div>
+            </div>
         </div>
     </div>
-</div>
+
+        
+            <div class="col s12">
+    
+    <div class="card">
+        <div class="card-image">
+            <div class="carousel">
+                <a class="carousel-item" href="#one!"><img src="/images/item3.png"></a>
+                <a class="carousel-item" href="#two!"><img src=""></a>
+                <a class="carousel-item" href="#three!"><img src=""></a>
+            </div>
+            
+        </div>
+
+        <div class="card-stacked">
+            <div class=" card-content">
+                <span class="card-title"> Captain Kirk Phaser </span>
+                <p >Excepteur landjaeger ex, rump meatball sirloin est kevin culpa drumstick esse corned beef.</p>
+            </div>
+            
+            
+            <div class="card-action">
+                <button
+                    class="snipcart-add-item waves-effect waves-light btn"
+                    data-item-id="3"
+                    data-item-name="Captain Kirk Phaser"
+                    data-item-price="145.98"
+                    data-item-url="http://snipcart-hugo.netlify.com"
+                    data-item-custom1-options="Wooden|Black|Gold &#43;50.00[&#43;50.00]"
+                    data-item-custom1-name="What color?"
+                    data-item-max-quantity="3"
+                    data-item-image="/images/item3.png">
+                    <i class="material-icons right">shopping_cart</i>
+                    Add to card
+                </button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+        
+            <div class="col s12">
+    
+    <div class="card">
+        <div class="card-image">
+            <div class="carousel">
+                <a class="carousel-item" href="#one!"><img src="/images/item4.png"></a>
+                <a class="carousel-item" href="#two!"><img src=""></a>
+                <a class="carousel-item" href="#three!"><img src=""></a>
+            </div>
+            
+        </div>
+
+        <div class="card-stacked">
+            <div class=" card-content">
+                <span class="card-title"> Meatball sirloin </span>
+                <p >Excepteur landjaeger ex, rump meatball sirloin est kevin culpa drumstick esse corned beef.</p>
+            </div>
+            
+            
+            <div class="card-action">
+                <button
+                    class="snipcart-add-item waves-effect waves-light btn"
+                    data-item-id="4"
+                    data-item-name="Meatball sirloin"
+                    data-item-price="145.98"
+                    data-item-url="http://snipcart-hugo.netlify.com"
+                    data-item-custom1-options="Wooden|Black|Gold &#43;50.00[&#43;50.00]"
+                    data-item-custom1-name="What color?"
+                    data-item-max-quantity="3"
+                    data-item-image="/images/item4.png">
+                    <i class="material-icons right">shopping_cart</i>
+                    Add to card
+                </button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+        
+            <div class="col s12">
+    
+    <div class="card">
+        <div class="card-image">
+            <div class="carousel">
+                <a class="carousel-item" href="#one!"><img src="/images/item5.png"></a>
+                <a class="carousel-item" href="#two!"><img src=""></a>
+                <a class="carousel-item" href="#three!"><img src=""></a>
+            </div>
+            
+        </div>
+
+        <div class="card-stacked">
+            <div class=" card-content">
+                <span class="card-title"> Captain Kirk Phaser </span>
+                <p >Excepteur landjaeger ex, rump meatball sirloin est kevin culpa drumstick esse corned beef.</p>
+            </div>
+            
+            
+            <div class="card-action">
+                <button
+                    class="snipcart-add-item waves-effect waves-light btn"
+                    data-item-id="5"
+                    data-item-name="Captain Kirk Phaser"
+                    data-item-price="145.98"
+                    data-item-url="http://snipcart-hugo.netlify.com"
+                    data-item-custom1-options="Wooden|Black|Gold &#43;50.00[&#43;50.00]"
+                    data-item-custom1-name="What color?"
+                    data-item-max-quantity="3"
+                    data-item-image="/images/item5.png">
+                    <i class="material-icons right">shopping_cart</i>
+                    Add to card
+                </button>
+            </div>
+            </div>
+        </div>
+    </div>
+
+        
+            <div class="col s12">
+    
+    <div class="card">
+        <div class="card-image">
+            <div class="carousel">
+                <a class="carousel-item" href="#one!"><img src="/images/item6.png"></a>
+                <a class="carousel-item" href="#two!"><img src=""></a>
+                <a class="carousel-item" href="#three!"><img src=""></a>
+            </div>
+            
+        </div>
+
+        <div class="card-stacked">
+            <div class=" card-content">
+                <span class="card-title"> Captain Kirk Phaser </span>
+                <p >Excepteur landjaeger ex, rump meatball sirloin est kevin culpa drumstick esse corned beef.</p>
+            </div>
+            
+            
+            <div class="card-action">
+                <button
+                    class="snipcart-add-item waves-effect waves-light btn"
+                    data-item-id="6"
+                    data-item-name="Captain Kirk Phaser"
+                    data-item-price="145.98"
+                    data-item-url="http://snipcart-hugo.netlify.com"
+                    data-item-custom1-options="Wooden|Black|Gold &#43;50.00[&#43;50.00]"
+                    data-item-custom1-name="What color?"
+                    data-item-max-quantity="3"
+                    data-item-image="/images/item6.png">
+                    <i class="material-icons right">shopping_cart</i>
+                    Add to card
+                </button>
+            </div>
+            </div>
+        </div>
+    </div>
 
         
     </div>
 </section>
-<footer class="page-footer">
+<footer class="black page-footer">
     <div class="container">
         <div class="footer-copyright">
             <div class="container">
@@ -117,14 +302,6 @@
         </div>
     </div>
 </footer>
-
-
-<ul id="slide-out" class="sidenav">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Blog</a></li>
-    <li><a href="#">Blog</a></li>
-    <li><a href="#">Login</a></li>
-</ul>
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -140,11 +317,18 @@
 </script>
 
 <script>
-    var elem = document.querySelector('.sidenav');
-    var instance = new M.Sidenav(elem);
     $(document).ready(function(){
             $('.sidenav').sidenav();
         });
+
+
+    $(document).ready(function(){
+            $('.carousel').carousel();
+        });
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true,
+    indicators: true
+  });
 
 </script>
 </body>

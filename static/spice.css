@@ -1,3 +1,54 @@
+section.container {
+/*     width: 100%; */
+/*     height: 100%; */
+    /* scroll-snap-type: scroll; */
+      scroll-snap-type: y mandatory;
+      height: 100vh;
+      overflow: scroll;
+
+      /* scroll-snap-points-y: repeat(100vh); */
+/*     overflow-y: scroll; */
+/* } */
+}
+
+/* section.container .row .col:not(:last-child)  { */
+section.container .row .col  {
+
+    /* height: 100vh; */
+
+      /*  */
+      /* height: 100vh; */
+      /* position: relative; */
+    scroll-snap-align: center;
+}
+
+/* section.container .row .col:last-child  { */
+/*       scroll-snap-align: end; */
+/*  */
+/* } */
+/* #navigation ul li:not(:first-child):not(:last-child) { */
+/* section.container .col .card:not(:first-child) { */
+section.container .card {
+    /* max-height: 100vh; */
+    /* height: 100vh; */
+    /* color: red; */
+}
+
 .carousel-item.active > img {
-    cursor: zoom-in 
-  }
+    cursor: zoom-in; 
+}
+
+.card .card-image img {
+
+    /* max-height: 50vh; */
+
+    object-fit: cover;
+}
+
+/* section.container { */
+
+html,
+body {
+  /* height: 100vh; */
+  /* overflow: hidden; */
+}
